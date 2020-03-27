@@ -37,7 +37,7 @@ int main()
 		namedWindow("dst_mB", 0);
 		imshow("dst_mB", dst_mB);			//中值滤波
 		imshow("dst_blur", dst_blur);		//均值滤波
-		imshow("dst_GB", dst_GB);		//均值滤波-高斯
+		imshow("dst_GB", dst_GB);		 //均值滤波-高斯
 		imshow("dst_sobelx", dst_sobelx);		//边缘提取-x
 		imshow("dst_sobely", dst_sobely);		//边缘提取-y
 
